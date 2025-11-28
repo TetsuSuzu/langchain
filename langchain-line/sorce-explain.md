@@ -1,4 +1,6 @@
 **LINEのWebhookイベントを受け取り、AWS Bedrockの基盤モデルを使って応答を生成し、LINEに返信するLambda関数**の実装。会話履歴をDynamoDBに保存し、LangChainを使って過去のやり取りを踏まえた応答を返す仕組み。
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/44d63c09-3392-442c-a49d-60cf8ebd1680" />
+
 
 ***
 
