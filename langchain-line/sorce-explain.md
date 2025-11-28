@@ -120,7 +120,7 @@ def lambda_handler(event, context):
 
 ***
 
-✅ **このコードの役割まとめ**
+✅ **コードの内容まとめ**
 
 *   LINE Bot → Lambda → Bedrock → 応答 → LINE返信。
 *   会話履歴はDynamoDBで管理。
@@ -128,8 +128,4 @@ def lambda_handler(event, context):
 
 ***
 
-次にどうしますか？
 
-*   **① アーキテクチャ図を作成**して視覚的に理解しますか？
-*   \*\*② このコードの改善ポイント（例: エラーハンドリング、非同期化）\*\*を提案しますか？
-*   \*\*③ デプロイ手順（Lambda + API Gateway + LINE設定）\*\*をまとめますか？
